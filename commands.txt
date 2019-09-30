@@ -1,0 +1,21 @@
+Part 1
+
+1)   git clone repo
+2)   cd repo
+3&4) git checkout -b Markdown
+5)   git status
+6)   physically move files into repo folder
+     git add .
+     git commit -m "commit to Markdown"
+7)   git push -u origin Markdown
+
+Part 2
+
+1) git checkout master
+2) git merge Markdown
+3) git push
+4) git branch -d Markdown
+5) git log --oneline
+6) git add.
+   git commit -m "commit to master"
+   git push
